@@ -1,0 +1,957 @@
+# Copyright (C) 2024 QuadLayers
+# This file is distributed under the GPLv3.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Invoice Manager 1.0.7\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wc-invoice-manager\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-10-14T08:42:38+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: wc-invoice-manager\n"
+
+#. Plugin Name of the plugin
+#: wc-invoice-manager.php
+msgid "WooCommerce Invoice Manager"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: wc-invoice-manager.php
+msgid "https://wordpress.org/plugins/wc-invoice-manager/"
+msgstr ""
+
+#. Description of the plugin
+#: wc-invoice-manager.php
+msgid "Manage WooCommerce invoices with the first Gutenberg-based editor; it's user-friendly."
+msgstr ""
+
+#. Author of the plugin
+#: wc-invoice-manager.php
+msgid "QuadLayers"
+msgstr ""
+
+#. Author URI of the plugin
+#: wc-invoice-manager.php
+msgid "https://quadlayers.com"
+msgstr ""
+
+#: lib/api/entities/tools/class-delete.php:19
+msgid "You don't have permission to delete invoices."
+msgstr ""
+
+#: lib/api/entities/tools/class-delete.php:27
+msgid "No orphan invoices were found."
+msgstr ""
+
+#: lib/api/entities/tools/class-delete.php:35
+msgid "%s orphan invoices were deleted."
+msgstr ""
+
+#: lib/api/entities/tools/class-delete.php:39
+#: lib/api/entities/tools/class-post.php:49
+#: lib/api/entities/tools/class-update.php:62
+msgid "Success"
+msgstr ""
+
+#: lib/api/entities/tools/class-post.php:19
+msgid "You don't have permission to create invoices."
+msgstr ""
+
+#: lib/api/entities/tools/class-post.php:33
+msgid "No orders without invoices were found."
+msgstr ""
+
+#: lib/api/entities/tools/class-post.php:45
+msgid "%s invoices for past orders were created."
+msgstr ""
+
+#: lib/api/entities/tools/class-update.php:20
+msgid "You don't have permission to update invoices."
+msgstr ""
+
+#: lib/api/entities/tools/class-update.php:28
+msgid "No invoices to update were found."
+msgstr ""
+
+#: lib/api/entities/tools/class-update.php:58
+msgid "%s invoices were updated."
+msgstr ""
+
+#: lib/controllers/class-admin-menu-invoices-list.php:23
+#: lib/controllers/class-admin-menu-invoices-list.php:24
+#: lib/services/class-invoice-list-table.php:62
+msgid "Invoices"
+msgstr ""
+
+#: lib/controllers/class-admin-menu-invoices-list.php:58
+msgid "Number of items per page"
+msgstr ""
+
+#: lib/controllers/class-admin-menu.php:77
+#: lib/controllers/class-admin-menu.php:78
+#: vendor_packages/wp-plugin-table-links.php:8
+msgid "Settings"
+msgstr ""
+
+#: lib/controllers/class-invoice-actions.php:60
+#: lib/controllers/class-invoice-actions.php:84
+#: lib/controllers/class-invoice-actions.php:110
+msgid "Invoice ID not found"
+msgstr ""
+
+#: lib/controllers/class-invoice-actions.php:67
+#: lib/controllers/class-invoice-actions.php:92
+#: lib/controllers/class-invoice-actions.php:117
+msgid "Invoice with ID %s not found."
+msgstr ""
+
+#: lib/controllers/class-invoice-actions.php:73
+#: lib/controllers/class-invoice-actions.php:123
+msgid "You don'thave permission to view this invoice."
+msgstr ""
+
+#: lib/controllers/class-invoice-actions.php:98
+msgid "You don't have permission to update this invoice."
+msgstr ""
+
+#: lib/controllers/class-invoice-actions.php:160
+msgid "Order not valid."
+msgstr ""
+
+#: lib/controllers/class-invoice-actions.php:166
+msgid "Order not found."
+msgstr ""
+
+#: lib/controllers/class-invoice-template.php:36
+#: lib/controllers/class-invoice-template.php:37
+#: lib/controllers/class-invoice-template.php:38
+#: lib/controllers/class-invoice-template.php:39
+msgid "Invoice Template"
+msgstr ""
+
+#: lib/controllers/class-invoice-template.php:40
+#: lib/services/class-invoice-list-table.php:62
+#: build/backend/js/index.js:2
+msgid "Add New"
+msgstr ""
+
+#: lib/controllers/class-invoice-template.php:41
+msgid "Add New Invoice Template"
+msgstr ""
+
+#: lib/controllers/class-invoice-template.php:42
+msgid "New Invoice Template"
+msgstr ""
+
+#: lib/controllers/class-invoice-template.php:43
+msgid "Edit Invoice Template"
+msgstr ""
+
+#: lib/controllers/class-invoice-template.php:44
+msgid "View Invoice Template"
+msgstr ""
+
+#: lib/controllers/class-invoice-template.php:45
+#: lib/services/class-invoice-list-table.php:62
+#: build/backend/js/index.js:2
+msgid "Templates"
+msgstr ""
+
+#: lib/controllers/class-invoice-template.php:46
+msgid "Search Invoice Templates"
+msgstr ""
+
+#: lib/controllers/class-invoice-template.php:47
+msgid "Parent Template:"
+msgstr ""
+
+#: lib/controllers/class-invoice-template.php:48
+msgid "No invoice template found."
+msgstr ""
+
+#: lib/controllers/class-invoice-template.php:49
+msgid "No invoice template found in Trash."
+msgstr ""
+
+#: lib/controllers/class-invoice-template.php:54
+msgid "Description"
+msgstr ""
+
+#: lib/hooks/class-wc-admin-order.php:39
+#: lib/hooks/class-wc-admin-order.php:49
+msgid "Order Invoice"
+msgstr ""
+
+#: lib/hooks/class-wc-admin-order.php:86
+msgid "The order is yet to be completed. An invoice will be generated automatically once the order status changes to: %s."
+msgstr ""
+
+#: lib/hooks/class-wc-admin-order.php:93
+#: lib/hooks/class-wc-admin-orders-list.php:85
+#: lib/hooks/class-wc-myaccount-order.php:35
+#: lib/hooks/class-wc-myaccount-orders-list.php:33
+#: lib/services/class-invoice-list-table.php:261
+msgid "Download PDF"
+msgstr ""
+
+#: lib/hooks/class-wc-admin-order.php:94
+#: lib/hooks/class-wc-myaccount-order.php:33
+#: lib/services/class-invoice-list-table.php:103
+msgid "Download"
+msgstr ""
+
+#: lib/hooks/class-wc-admin-order.php:97
+#: lib/services/class-invoice-list-table.php:104
+#: lib/services/class-invoice-list-table.php:273
+msgid "Update"
+msgstr ""
+
+#: lib/hooks/class-wc-admin-order.php:100
+msgid "Email"
+msgstr ""
+
+#: lib/hooks/class-wc-admin-order.php:109
+msgid "Generate invoice and send email"
+msgstr ""
+
+#: lib/hooks/class-wc-admin-order.php:110
+msgid "Send invoice email"
+msgstr ""
+
+#: lib/hooks/class-wc-admin-orders-list.php:61
+#: lib/hooks/class-wc-myaccount-order.php:30
+#: templates/blocks/invoice-data.php:24
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Invoice"
+msgstr ""
+
+#: lib/hooks/class-wc-admin-orders-list.php:95
+msgid "Generate invoices"
+msgstr ""
+
+#: lib/hooks/class-wc-admin-orders-list.php:96
+msgid "Email invoices"
+msgstr ""
+
+#: lib/hooks/class-wc-myaccount-orders-list.php:19
+msgid "Invoice Number"
+msgstr ""
+
+#: lib/models/class-invoices-model.php:158
+msgid "The invoice %s was successfully created for this order."
+msgstr ""
+
+#: lib/models/class-invoices-model.php:214
+msgid "An invoice for this order already exists."
+msgstr ""
+
+#: lib/services/class-invoice-list-table.php:62
+#: build/backend/js/index.js:2
+msgid "Edit"
+msgstr ""
+
+#: lib/services/class-invoice-list-table.php:78
+#: lib/services/class-invoice-list-table.php:85
+msgid "Search"
+msgstr ""
+
+#: lib/services/class-invoice-list-table.php:80
+msgid "Search by invoice number"
+msgstr ""
+
+#: lib/services/class-invoice-list-table.php:87
+msgid "Search by billing name"
+msgstr ""
+
+#: lib/services/class-invoice-list-table.php:124
+msgid "Filter by date"
+msgstr ""
+
+#: lib/services/class-invoice-list-table.php:127
+msgid "All dates"
+msgstr ""
+
+#: lib/services/class-invoice-list-table.php:182
+msgid "Filter"
+msgstr ""
+
+#: lib/services/class-invoice-list-table.php:187
+msgid "Empty Trash"
+msgstr ""
+
+#: lib/services/class-invoice-list-table.php:290
+msgid "ID"
+msgstr ""
+
+#: lib/services/class-invoice-list-table.php:291
+msgid "Order"
+msgstr ""
+
+#: lib/services/class-invoice-list-table.php:292
+#: templates/blocks/order-items.php:82
+#: build/gutenberg/js/index.js:2
+msgid "Number"
+msgstr ""
+
+#: lib/services/class-invoice-list-table.php:293
+msgid "Code"
+msgstr ""
+
+#: lib/services/class-invoice-list-table.php:294
+msgid "Billing Name"
+msgstr ""
+
+#: lib/services/class-invoice-list-table.php:295
+msgid "Date Time"
+msgstr ""
+
+#: lib/services/class-invoice-list-table.php:296
+msgid "Order Status"
+msgstr ""
+
+#: lib/services/class-invoice-list-table.php:297
+msgid "Total currency"
+msgstr ""
+
+#: lib/services/class-invoice-list-table.php:298
+msgid "File"
+msgstr ""
+
+#: lib/services/class-invoice-list-table.php:299
+msgid "Actions"
+msgstr ""
+
+#: lib/services/class-pdf.php:16
+msgid "Filename is required"
+msgstr ""
+
+#: lib/services/class-pdf.php:21
+msgid "Filename must have the .pdf extension"
+msgstr ""
+
+#: lib/services/class-template.php:93
+msgid "Order %s not found"
+msgstr ""
+
+#: lib/services/class-zip.php:11
+msgid "Cannot open %s"
+msgstr ""
+
+#: templates/blocks/invoice-data.php:31
+#: build/gutenberg/js/index.js:2
+msgid "Number:"
+msgstr ""
+
+#: templates/blocks/invoice-data.php:38
+#: build/gutenberg/js/index.js:2
+msgid "Date:"
+msgstr ""
+
+#: templates/blocks/invoice-data.php:45
+#: build/gutenberg/js/index.js:2
+msgid "Order Number:"
+msgstr ""
+
+#: templates/blocks/invoice-data.php:52
+#: build/gutenberg/js/index.js:2
+msgid "Order Date:"
+msgstr ""
+
+#: templates/blocks/order-billing-data.php:35
+#: build/gutenberg/js/index.js:2
+msgid "Billing Data"
+msgstr ""
+
+#: templates/blocks/order-items.php:87
+#: build/gutenberg/js/index.js:2
+msgid "Image"
+msgstr ""
+
+#: templates/blocks/order-items.php:92
+#: build/gutenberg/js/index.js:2
+msgid "SKU"
+msgstr ""
+
+#: templates/blocks/order-items.php:97
+#: build/gutenberg/js/index.js:2
+msgid "Product"
+msgstr ""
+
+#: templates/blocks/order-items.php:102
+#: build/gutenberg/js/index.js:2
+msgid "Price"
+msgstr ""
+
+#: templates/blocks/order-items.php:107
+#: build/gutenberg/js/index.js:2
+msgid "Quantity"
+msgstr ""
+
+#: templates/blocks/order-items.php:112
+#: templates/blocks/order-totals.php:51
+#: build/gutenberg/js/index.js:2
+msgid "Subtotal"
+msgstr ""
+
+#: templates/blocks/order-items.php:117
+#: templates/blocks/order-totals.php:61
+#: build/gutenberg/js/index.js:2
+msgid "Taxes"
+msgstr ""
+
+#: templates/blocks/order-items.php:122
+#: templates/blocks/order-totals.php:91
+#: build/gutenberg/js/index.js:2
+msgid "Total"
+msgstr ""
+
+#: templates/blocks/order-shipping-data.php:33
+#: build/gutenberg/js/index.js:2
+msgid "Shipping Data"
+msgstr ""
+
+#: templates/blocks/order-totals.php:43
+#: build/gutenberg/js/index.js:2
+msgid "Totals"
+msgstr ""
+
+#: templates/blocks/order-totals.php:71
+msgid "Discount"
+msgstr ""
+
+#: templates/blocks/order-totals.php:81
+#: build/gutenberg/js/index.js:2
+msgid "Shipping"
+msgstr ""
+
+#: vendor_packages/wp-plugin-table-links.php:14
+#: build/backend/js/index.js:2
+msgid "Premium"
+msgstr ""
+
+#: vendor_packages/wp-plugin-table-links.php:19
+#: build/backend/js/index.js:2
+msgid "Support"
+msgstr ""
+
+#: vendor_packages/wp-plugin-table-links.php:24
+#: build/backend/js/index.js:2
+msgid "Documentation"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Settings saved."
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Filters settings have been reset."
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Hello! We are Quadlayers, and we're currently enhancing our %s plugin. We're expanding its features to provide you with an even better experience. Stay tuned for the updates!"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "If you have any doubt or you find any issue don't hesitate to contact us through our ticket system or join our community to meet other %s users."
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Submit ticket"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Community"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "If you want to get in touch with other %s users or be aware of our promotional discounts join our community now."
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Join our community"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Include invoice in"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Attach invoice PDF"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Attach invoice download link"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Save"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Template"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Template - Default"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Template - %s"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Create on order status"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Delete invoice"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Disable for free orders"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Start sequence from number"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "You can't change the sequence number due to the presence of %s invoices created."
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Sequence Prefix"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "These changes are not applied retroactively."
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Sequence Sufix"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Invoice metabox"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Add options to download, view, generate or email the order directly from the order viewing page in Woocommerce."
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Invoice column in order list"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Add an extra column displaying the designated invoice for each order."
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Create missing invoices for orders"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Create"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Delete invoices without orders"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Delete"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Welcome"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Orders"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Emails"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "This feature enables you to automatically append the invoice to the new order confirmation email sent to customers."
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "This is a premium feature."
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "For more information, please check the documentation <a>here</a>."
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Tools"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Paper"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Block to show invoice items."
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Loading…"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "No name"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Placeholder"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Elements"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Show header"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Show invoice date"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Show invoice number"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Show order number"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Show order date"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Header"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Header Border"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Header background"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Color which is displayed on header background"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Header Color"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Color which is displayed on header text"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Cells"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Cell Border"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Billing data"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Show recipient name"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Show company name"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Show address"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Show country"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Show city"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Show state"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Show postcode"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Show email"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Show phone"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "invoice"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "billing"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "order"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Block to show invoice billing data."
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Shipping data"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "shipping"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Block to show invoice shipping data."
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Order Customer Note"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Block to show invoice Order Customer Note."
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Items not found"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Free products"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Show number"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Show image"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Show SKU"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Show product"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Show quantity"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Show price"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Show tax"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Show subtotal"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Show total"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Show footer"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Footer"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Footer Border"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Footer background"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Footer Color"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Order Items"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "items"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Discounts"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Show subtotals"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Show taxes"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Show discounts"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Show shipping"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Order Items Total"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Block to show invoice order total data."
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Columns"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "This column count exceeds the recommended amount and may cause visual breakage."
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "One column"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Two columns; equal split"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Two columns; one-third, two-thirds split"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Two columns; two-thirds, one-third split"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Three columns; equal split"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Three columns; wide center column"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Display content in multiple columns, with blocks added to each column."
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent et eros eu felis."
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Suspendisse commodo neque lacus, a dictum orci interdum et."
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Etiam et egestas lorem. Vivamus sagittis sit amet dolor quis lobortis. Integer sed fermentum arcu, id vulputate lacus. Etiam fermentum sem eu quam hendrerit."
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Nam risus massa, ullamcorper consectetur eros fermentum, porta aliquet ligula. Sed vel mauris nec enim."
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Width"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "%1$s (%2$d of %3$d)"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Column"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "A single column within a columns block."
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "The order %s is not found."
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Search by order ID."
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Search Orders"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "No results match."
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "PDF Preview"
+msgstr ""
+
+#: build/helpers/js/index.js:1
+msgid "Never"
+msgstr ""
+
+#: build/helpers/js/index.js:1
+msgid "Delete when move to trash"
+msgstr ""
+
+#: build/helpers/js/index.js:1
+msgid "Delete when delete permanently"
+msgstr ""
+
+#: build/helpers/js/index.js:1
+msgid "New Order Email"
+msgstr ""
+
+#: build/helpers/js/index.js:1
+msgid "Customer Note Email"
+msgstr ""
